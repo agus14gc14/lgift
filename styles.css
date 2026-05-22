@@ -1,8 +1,8 @@
 body{
-    background-image: url('fondo.gif') no-repeat fixed;
+    background-image: url('fondo.gif');
     background-size: cover;
 }
-img{
+#caja{
     width: 35%;
     height: 35%;
 }
