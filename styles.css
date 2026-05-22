@@ -3,18 +3,25 @@ body{
     background-size: cover;
 }
 #caja{
+    position: relative;
     width: 300px;
     height: 300px;
+    cursor: pointer;
 }
 h1,p{
     font-family: Impact;
     text-align: center;
     color: antiquewhite;
+    pointer-events: none;
 }
 
 .saludo{
-    display: grid;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
