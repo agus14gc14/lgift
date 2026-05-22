@@ -4,4 +4,6 @@ function funcion(){
     document.getElementById("caja").replaceWith(newImg)
 }
 
-document.getElementById("caja").onclick = funcion()
+document.getElementById("caja").onclick = function(){
+    funcion();
+}
