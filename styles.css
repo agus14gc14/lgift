@@ -1,5 +1,5 @@
 body{
-    background-image: url('fondo.gif') no-repeat fixed;
+    background-image: url('fondo.gif') no-repeat;
     background-size: cover;
     min-height: 100%;
 }
