@@ -1,9 +1,9 @@
+const caja = document.getElementById('caja')
 function funcion(){
+    alert('[DEBUG] Sejecutando cambio de imagen')
     const newImg = document.createElement('img')
     newImg.src = 'pato.png'
-    document.getElementById("caja").replaceWith(newImg)
+    caja.replaceWith(newImg)
 }
 
-document.getElementById("caja").onclick = function(){
-    funcion();
-}
+caja.addEventListener('click', funcion)
