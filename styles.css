@@ -6,6 +6,8 @@ body{
 img{
     width: 35%;
     height: 35%;
+    margin-top: 20px;
+    align-self: center;
 }
 h1,p{
     font-family: Impact;
