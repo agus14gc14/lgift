@@ -4,8 +4,8 @@ body{
     background-size: cover;
 }
 img{
-    max-width: 100px;
-    max-height: 100px;
+    width:fit-content;
+    height: fit-content;
 }
 h1,p{
     font-family: Impact;
