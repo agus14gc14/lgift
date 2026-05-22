@@ -3,3 +3,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+h1,p{
+    font-family: Impact;
+}
+
+.saludo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
