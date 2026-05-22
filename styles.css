@@ -17,4 +17,6 @@ h1,p{
 .saludo{
     display: grid;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
