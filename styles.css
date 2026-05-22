@@ -26,6 +26,9 @@ h1,p{
 
 }
 @media screen and (max-width: 768px){
+    body{
+        background-size: 588px, 588px;
+    }
     img{
         max-width: 400px;
         max-height: 250px;
